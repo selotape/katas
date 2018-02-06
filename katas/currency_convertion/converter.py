@@ -9,7 +9,7 @@
 import string
 import sys
 from collections import defaultdict
-from itertools import combinations, chain
+from itertools import combinations_with_replacement, chain
 
 import requests
 
@@ -29,7 +29,7 @@ class Converter(object):
         self.rates['USD']['USD'] = 1.0
         self.rates['EUR'] = _rates_from_api_fixer('EUR')
         self.rates['EUR']['EUR'] = 1.0
-        self.supported_pairs = combinations(chain(self.rates['USD'].keys(), self.rates['EUR'].keys()), 2)
+        self.supported_pairs = combinations_with_replacement(chain(self.rates['USD'].keys(), self.rates['EUR'].keys()), 2)
 
         for source, target in self.supported_pairs:
             for source_base, target_base in (('USD', 'EUR'), ('EUR', 'USD'), ('EUR', 'EUR'), ('USD', 'USD'),):
@@ -37,7 +37,7 @@ class Converter(object):
                 if source in self.rates[source_base] and target in self.rates[target_base]:
                     source_to_source_base_ratio = 1 / self.rates[source_base][source]
                     source_to_target_base_ratio = source_to_source_base_ratio * self.rates[source_base][target_base]
-                    source_to_target_ratio = source_to_target_base_ratio *  self.rates[target_base][target]
+                    source_to_target_ratio = source_to_target_base_ratio * self.rates[target_base][target]
                     self.rates[source][target] = source_to_target_ratio
                     self.rates[target][source] = 1.0 / source_to_target_ratio
 
