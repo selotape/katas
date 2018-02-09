@@ -106,3 +106,5 @@ ENV/
 
 # User-specific stuff:
 .idea/
+
+*secret*
