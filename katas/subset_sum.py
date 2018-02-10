@@ -1,3 +1,6 @@
+from itertools import combinations_with_replacement, chain
+
+
 def subset_sum_mem(arr, target, mem):
     key = (tuple(arr), target)
     if key in mem:
@@ -19,3 +22,23 @@ def subsets_sum(arr, target):
     solutions_with_dups = subset_sum_mem(arr, target, mem)
     solutions = {tuple(solution) for solution in solutions_with_dups}
     return sorted(list(solution) for solution in solutions)
+
+
+def combination_sum(a, sum_):
+    unique_values = set(a)
+    all_combinations = chain.from_iterable(combinations_with_replacement(unique_values, i) for i in range(sum_ + 1))
+    valid_combinations = [sorted(combination) for combination in all_combinations if sum(combination) == sum_]
+    if len(valid_combinations) == 0:
+        return 'Empty'
+    else:
+        return join_combinations(sorted(valid_combinations))
+
+
+def join_combinations(combinations):
+    printable_combinations = (printable_combination(combination) for combination in combinations)
+    return ''.join(printable_combinations)
+
+
+def printable_combination(combination):
+    joined = ' '.join(str(item) for item in combination)
+    return f'({joined})'
