@@ -1,0 +1,249 @@
+{
+ "green": [
+  "jade",
+  "juniper",
+  "appletini",
+  "ivy",
+  "shamrock"
+ ],
+ "light blue": [
+  "slate",
+  "surf spray",
+  "windsor blue",
+  "platinum",
+  "arctic",
+  "ice blue",
+  "periwinkle",
+  "cloudy"
+ ],
+ "skin": [
+  "medium beige",
+  "light brown",
+  "deep brown",
+  "medium brown",
+  "medium coffee",
+  "dark bronze",
+  "fair olive",
+  "light beige",
+  "light olive",
+  "light bronze",
+  "fair beige",
+  "medium bronze",
+  "dark olive",
+  "medium rose-beige",
+  "light rose-beige",
+  "dark beige",
+  "dark rose-beige",
+  "light coffee",
+  "medium olive",
+  "fair rose-beige"
+ ],
+ "navy blue": [
+  "blueberry",
+  "amethyst",
+  "midnight",
+  "navy blue"
+ ],
+ "olive green": [
+  "antique gold",
+  "sage",
+  "mint",
+  "moss",
+  "olive",
+  "clover"
+ ],
+ "light pink": [
+  "ice pink",
+  "rose",
+  "rose water",
+  "pearl pink",
+  "primrose"
+ ],
+ "light grey": [
+  "oyster",
+  "shadow",
+  "pebble beach",
+  "sand",
+  "palomino",
+  "sterling",
+  "frost",
+  "dove"
+ ],
+ "teal": [
+  "marine",
+  "caspian",
+  "teal",
+  "peacock",
+  "seaside",
+  "ocean blue",
+  "mosaic"
+ ],
+ "blue": [
+  "sapphire",
+  "cornflower",
+  "cerulean",
+  "electric blue",
+  "sailor",
+  "larkspur",
+  "royal blue"
+ ],
+ "red": [
+  "ribbon red",
+  "fiesta",
+  "barcelona",
+  "flame"
+ ],
+ "lavender": [
+  "hyacinth (iridescent taffeta)",
+  "lavender",
+  "tahiti",
+  "quartz",
+  "tulip",
+  "wood violet",
+  "wisteria"
+ ],
+ "hot pink": [
+  "posie",
+  "pretty in pink",
+  "fuchsia",
+  "pantone honeysuckle",
+  "american beauty",
+  "strawberry"
+ ],
+ "dark green": [
+  "emerald",
+  "hunter",
+  "evergreen",
+  "pine green"
+ ],
+ "yellow": [
+  "buttercup",
+  "ice yellow",
+  "sunflower",
+  "daisy",
+  "snapdragon"
+ ],
+ "violet": [
+  "majestic",
+  "violet",
+  "concord"
+ ],
+ "plum": [
+  "italian plum",
+  "aubergine",
+  "plum raisin",
+  "eggplant",
+  "african violet",
+  "wild berry"
+ ],
+ "greige": [
+  "mermaid",
+  "kiwi",
+  "celadon"
+ ],
+ "light green": [
+  "honey dew",
+  "pistachio"
+ ],
+ "light brown": [
+  "cappuccino",
+  "champagne",
+  "almond",
+  "butterscotch"
+ ],
+ "beige": [
+  "fresco",
+  "corn silk",
+  "cameo"
+ ],
+ "purple": [
+  "lotus",
+  "dahlia",
+  "sugar plum",
+  "persian plum",
+  "orchid",
+  "smashing",
+  "passion",
+  "paradise",
+  "pansy"
+ ],
+ "magenta": [
+  "fruit punch",
+  "merlot",
+  "tutti frutti",
+  "cerise"
+ ],
+ "pink": [
+  "nectar",
+  "rose quartz",
+  "papaya",
+  "begonia",
+  "coral",
+  "ginger"
+ ],
+ "turquoise": [
+  "niagara",
+  "pantone turquoise",
+  "oasis",
+  "spa",
+  "capri",
+  "meadow",
+  "aquamarine",
+  "turquoise"
+ ],
+ "brown": [
+  "chocolate",
+  "drift wood",
+  "espresso",
+  "brownie",
+  "latte",
+  "cinnamon"
+ ],
+ "white": [
+  "marshmallow",
+  "snow white",
+  "white",
+  "star light"
+ ],
+ "maroon": [
+  "ruby",
+  "bordeaux",
+  "claret",
+  "garnet",
+  "burgundy"
+ ],
+ "grey": [
+  "blue steel",
+  "charcoal gray",
+  "pewter",
+  "mocha",
+  "taupe",
+  "cathedral",
+  "quarry",
+  "mystic",
+  "twig"
+ ],
+ "mauve": [
+  "spanish rose",
+  "rosebud",
+  "carnation",
+  "valentine",
+  "tea rose"
+ ],
+ "orange": [
+  "orange crush",
+  "clementine",
+  "firecracker",
+  "tangerine"
+ ],
+ "gold": [
+  "mango",
+  "venetian gold",
+  "marigold"
+ ],
+ "black": [
+  "ebony",
+  "graphite",
+  "black"
+ ]
+}
